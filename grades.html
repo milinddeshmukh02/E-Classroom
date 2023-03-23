@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades</title>
+
+    <style>
+        
+        body{
+            margin: 0px;
+  padding: 0px;
+        }
+
+        table {
+          border-collapse: collapse;
+          width: 80%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         margin-top: 40px;
+         margin-bottom: 40px;
+        }
+      
+        th, td {
+          text-align: center;
+          padding: 12px;
+        }
+      
+        th {
+          background-color: #4CAF50;
+          color: white;
+        }
+      
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+      
+        tr:hover {
+          background-color: #ddd;
+        }
+      
+        .profile-icon {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+      
+        .profile-icon img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        header {
+  background-color: #052ab0;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+header h1 {
+  margin: 0;
+  
+}
+
+.ipt{
+  margin-top: 5px;
+  width: 320px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+button{
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        font-size: 12px;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(11, 8, 178);
+        
+      }
+
+      button:active{
+        box-shadow: 2px 2px 2px 2px rgba(15, 31, 155, 0.5);
+      }
+
+      footer{
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      </style>
+
+</head>
+<body>
+
+    <header>
+        <h1> E - Classroom </h1>
+        
+        <input type="text" placeholder="&#128269; Search Student name here...." class="ipt">
+      </header>
+
+    
+      <main>
+      <table align="center">
+        <thead>
+          <tr>
+            <th>Profile </th>
+            <th>Student Name</th>
+            <th>Marks</th>
+            <th>Remark</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Adarsh Gawali</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Pavan Chandrashekhar</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Milind Deshmukh</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Mangalsing Rathod</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Shubham Chatare</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Amol Sawasundar</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Vikas Dukare</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Avinash Chaware</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Pavan Jadhao</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Pranav Sonune</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Akash Surve</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+          <tr>
+            <td class="profile-icon"><img src="profile icon.png" alt="Profile Picture"></td>
+            <td>Abhishek Kale</td>
+            <td>100%</td>
+            <td>Pass</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    
+    <footer>
+        <button type="button" onclick = "window.location.href='classroom_home_page.html';">GO TO HOMEPAGE</button>
+    </footer>
+
+</body>
+</html>
